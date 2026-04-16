@@ -1,0 +1,10 @@
+name: enzywizard-embedding
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - fair-esm=2.0.0
+  - numpy=1.23.5
+  - biopython=1.86
+prefix: /home/wmk/miniconda3/envs/enzywizard-embedding
