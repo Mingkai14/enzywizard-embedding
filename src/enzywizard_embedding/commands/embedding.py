@@ -24,7 +24,7 @@ EnzyWizard-Embedding is a command-line tool for generating protein
 It takes a FASTA sequence as input and uses pretrained protein language
 model ESM2 to compute high-dimensional representations (embeddings) for each residue.
 The tool supports three parameter scales of ESM2 model: esm2_t6_8M_UR50D, esm2_t12_35M_UR50D,
-esm2_t30_150M_UR50D. The tool outputs the raw protein ESM2 embeddings.
+esm2_t30_150M_UR50D. The tool outputs raw floating-point values of the ESM2 embedding vectors.
 '''
 
 # example usage:
